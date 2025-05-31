@@ -7,8 +7,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-
-API_KEY = "-2N5V4p3saPZaUUC_Q03bpSOftcwqklU"
+# https://securitytrails.com/app/account/credentials
+API_KEY = "api_key_from_securitytrails" 
 
 # ================== SecurityTrails ===================
 def get_subdomains_securitytrails(domain):
